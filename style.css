@@ -17,12 +17,13 @@ body{
 }
 
 button{
-    width: 2rem;
-    height: 2rem;
+    min-width: 120px;
+    min-height: 120px;
     padding: 1px;
     background-color: rgba(255, 255, 255, .75);
     border: 1px solid white;
     outline: none;
+    font-size: 2rem;
 }
 
 button:hover{
@@ -54,10 +55,18 @@ button:hover{
 
 }
 
+[data-input-operator]{
+    color:rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+
+}
+
 [data-current-operand]{
     color:white;
     font-size: 2.5rem;
 
 }
 
-
+.previousinput{
+    display: flex;
+}
