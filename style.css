@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #800080);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+button{
+    width: 2rem;
+    height: 2rem;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, .75);
+    border: 1px solid white;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, .9);
+}
+
+[data-clear]{
+    width: 4rem;
+    
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.output{
+    background-color: rgba(0, 0, 0, .75);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+[data-previous-operand]{
+    color:rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+
+}
+
+[data-current-operand]{
+    color:white;
+    font-size: 2.5rem;
+
+}
+
+
