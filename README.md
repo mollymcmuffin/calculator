@@ -1,4 +1,4 @@
-# 🧮 Calculator
+# Calculator 🧮
 https://mollymcmuffin.github.io/calculator/
 
 - The main purpose of this project is for me to grasp some DOM manipulation.
